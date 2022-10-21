@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<ctype.h>
+
+#define MAX 100
+
+int stack[MAX];
+int top=-1;
+void push(int val)
+{
+
+}
+int  pop(void)
+{
+
+}
+
+
+int isdigitmy(char ch)
+{
+	(      return (ch>=48&&ch<=57) ? 1 : 0          );
+}
+
+int main()
+{
+    char str[50]="";
+    int i;
+    puts("Enter a postfix exp : ");//assume a number will be of one digit
+    scanf("[^\n]",str);
+    
+    i=0;
+    while(str[i])
+    {
+    	if (isdigitmy(str[i])
+    		push(str[i]);
+    	if (s[i]=='+'||.................)
+    	{
+    	   int a = pop();
+    	   int b = pop();
+    	   int c = perform_operation(a,b,s[i]);//implement this function
+    	   //write code here
+    	}
+    	i++;
+    
+    }
+    printf("%d", pop());
+    
+    //...........
+    
+    return 0;
+}
+void push(int val )
+{
+// write code here 
+struct Node * newNode;
+newNode=(struct Node *)malloc(sizeof struct Node);
+newNode->  
+}
+int pop()
+{
+// write code here
+}
